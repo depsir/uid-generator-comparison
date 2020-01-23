@@ -1,0 +1,21 @@
+{
+  "name": "uid-generator-comparison",
+  "version": "1.0.0",
+  "description": "Comparison of generators of unique id",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.custom.js && node index.uuid.js && node index.sha.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Francesco Sacchi",
+  "license": "ISC",
+  "dependencies": {
+    "sha1": "^1.1.1",
+    "uuid": "^3.3.3",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
